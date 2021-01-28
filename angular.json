@@ -61,7 +61,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "optimization": true,
+              "optimization": false,
               "outputHashing": "none",
               "sourceMap": {
                 "scripts": true,
