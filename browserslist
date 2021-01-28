@@ -1,0 +1,19 @@
+# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.
+# For additional information regarding the format and rule options, please see:
+# https://github.com/browserslist/browserslist#queries
+
+# You can see what browsers were selected by your queries by running:
+#   npx browserslist
+
+#> 0.5%
+#last 2 versions
+#Firefox ESR
+#not dead
+#not IE 9-11 # For IE 9-11 support, remove 'not'.
+
+# https://en.wikipedia.org/wiki/Timeline_of_web_browsers#2010s: on May 2018, contains all minimal changes of es2015 with a margin
+#   see also https://caniuse.com/es6, https://kangax.github.io/compat-table/es6/, https://github.com/angular/angular-cli/issues/14639#issuecomment-500458409
+Chrome >= 67
+Firefox >= 60
+Safari >= 11
+Opera >= 53

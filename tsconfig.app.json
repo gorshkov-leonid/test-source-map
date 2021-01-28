@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./"
+  },
+  "files": [
+    "src/main.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/stories/**/*.ts",
+    "src/it/**/*.ts",
+    "**/*.stories.ts",
+    "**/*.matchers.ts",
+    "**/*.spec.ts",
+    "**/*.spec.*.ts"
+  ]
+}
